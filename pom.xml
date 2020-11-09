@@ -11,7 +11,7 @@
         <groupId>org.sonatype.oss</groupId>
         <artifactId>oss-parent</artifactId>
         <version>7</version>
-        <relativePath />
+        <relativePath/>
     </parent>
 
     <description>
@@ -482,8 +482,8 @@
                             <target>
                                 <echo>PMD specific tasks: cleaning generated xdocs</echo>
                                 <delete quiet="true">
-                                    <fileset dir="${src.xdocs.dir}/rules" includes="**/*.xml" />
-                                    <fileset dir="${src.xdocs.dir}/" includes="mergedruleset.xml" />
+                                    <fileset dir="${src.xdocs.dir}/rules" includes="**/*.xml"/>
+                                    <fileset dir="${src.xdocs.dir}/" includes="mergedruleset.xml"/>
                                 </delete>
                             </target>
                         </configuration>
@@ -642,7 +642,7 @@
             <dependency>
               <groupId>com.beust</groupId>
               <artifactId>jcommander</artifactId>
-              <version>1.35</version>
+              <version>1.78</version>
             </dependency>
             <dependency>
                 <groupId>org.ow2.asm</groupId>
