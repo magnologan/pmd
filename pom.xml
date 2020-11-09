@@ -11,7 +11,7 @@
         <groupId>org.sonatype.oss</groupId>
         <artifactId>oss-parent</artifactId>
         <version>7</version>
-        <relativePath />
+        <relativePath/>
     </parent>
 
     <description>
@@ -264,7 +264,7 @@
         <clover.version>2.5.1</clover.version>
         <pmd.plugin.version>3.2</pmd.plugin.version>
         <java.version>1.6</java.version>
-        <ant.version>1.9.4</ant.version>
+        <ant.version>1.10.9</ant.version>
         <javadoc.plugin.version>2.10.1</javadoc.plugin.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -482,8 +482,8 @@
                             <target>
                                 <echo>PMD specific tasks: cleaning generated xdocs</echo>
                                 <delete quiet="true">
-                                    <fileset dir="${src.xdocs.dir}/rules" includes="**/*.xml" />
-                                    <fileset dir="${src.xdocs.dir}/" includes="mergedruleset.xml" />
+                                    <fileset dir="${src.xdocs.dir}/rules" includes="**/*.xml"/>
+                                    <fileset dir="${src.xdocs.dir}/" includes="mergedruleset.xml"/>
                                 </delete>
                             </target>
                         </configuration>
